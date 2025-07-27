@@ -1,4 +1,4 @@
-# 🎮 Breakout Game
+# 🎮 New Build Breakout Game
 
 A classic **Brick Breaker** arcade-style game built using **HTML5**, **CSS3**, and **JavaScript**. Control the paddle, break the bricks, and win the game while enjoying sound effects, background visuals, and smooth animations.
 
