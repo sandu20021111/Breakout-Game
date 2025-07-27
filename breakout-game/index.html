@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Breakout Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <h1>🎮 Breakout Game</h1>
+      <button id="startBtn">Start Game</button>
+    </div>
+
+    <canvas
+      id="gameCanvas"
+      width="480"
+      height="320"
+      style="display: none"
+    ></canvas>
+
+    <div id="gameOverMenu" style="display: none">
+      <h2 id="resultText"></h2>
+      <button id="restartBtn">Restart Game</button>
+    </div>
+
+    <button id="pauseBtn" style="display: none">⏸ Pause</button>
+
+    <button id="muteButton" style="display: none">🔊</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
